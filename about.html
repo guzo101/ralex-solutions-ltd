@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Ralex Solutions Ltd</title>
+  <meta name="description" content="Learn about Ralex Solutions Ltd, a labour relations and employment-law advisory firm serving employers and job seekers in Zambia.">
+  <link rel="stylesheet" href="./styles.css?v=20260401-6">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="top-contact-bar">
+    <div class="container top-contact-inner">
+      <p>Consult with confidence: <a href="tel:+260979415130">+260 97 9415130</a> | <a href="mailto:info@ralexsolutionsltd.com">info@ralexsolutionsltd.com</a></p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="logo" aria-label="Ralex Solutions Ltd home">Ralex Solutions Ltd</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a class="active" href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./practice-areas.html">Practice Areas</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="phone-link" href="tel:+260979415130">+260 97 9415130</a>
+        <a class="btn btn-primary" href="./contact.html#contact-form-panel">Book Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section page-hero">
+      <div class="container">
+        <p class="eyebrow">About The Firm</p>
+        <h1>Your Labour Relations Partner in Zambia</h1>
+        <p class="hero-support">We help job seekers secure employment and help employers secure the right employees through compliant labour practices.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container card-grid">
+        <article class="info-card">
+          <h2>Our Mission</h2>
+          <p>To provide practical labour-relations solutions that protect both employers and employees.</p>
+        </article>
+        <article class="info-card">
+          <h2>Our Vision</h2>
+          <p>To be Zambia's trusted labour advisory partner for compliant and productive workplaces.</p>
+        </article>
+        <article class="info-card">
+          <h2>Our Values</h2>
+          <p>Compliance, fairness, responsiveness, and practical guidance grounded in labour law.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <h2>Why Clients Trust Ralex</h2>
+        <ul class="feature-list">
+          <li>Specialized focus on labour and employment matters</li>
+          <li>Support for both organizations and job seekers</li>
+          <li>Collaboration experience with government institutions</li>
+          <li>Clear communication and practical implementation support</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="container final-cta-inner">
+        <h2>Partner with Ralex Solutions Ltd</h2>
+        <p>Request a confidential labour-relations consultation today.</p>
+        <div class="hero-cta-group">
+          <a class="btn btn-primary" href="./contact.html#contact-form-panel">Book Consultation</a>
+          <a class="btn btn-secondary" href="./services.html">Our Services</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="./index.html" class="logo">Ralex Solutions Ltd</a>
+        <p>Labour relations and employment support in collaboration with government institutions.</p>
+      </div>
+      <nav class="footer-links" aria-label="Useful links">
+        <h3 class="footer-title">Useful Links</h3>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./practice-areas.html">Practice Areas</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <nav class="footer-links" aria-label="Information links">
+        <h3 class="footer-title">Information</h3>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Cookie Policy</a>
+      </nav>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <p class="footer-contact-item"><strong>Address:</strong> Lusaka, Zambia</p>
+        <p class="footer-contact-item"><strong>Mobile:</strong> <a href="tel:+260979415130">+260 97 9415130</a></p>
+        <p class="footer-contact-item"><strong>Email:</strong> <a href="mailto:info@ralexsolutionsltd.com">info@ralexsolutionsltd.com</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="disclaimer">Ralex Solutions Ltd Copyright &copy; 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".primary-nav");
+    if (menuToggle && nav) {
+      menuToggle.addEventListener("click", () => {
+        const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+        menuToggle.setAttribute("aria-expanded", String(!expanded));
+        nav.classList.toggle("nav-open");
+      });
+    }
+  </script>
+</body>
+</html>
+
+
+

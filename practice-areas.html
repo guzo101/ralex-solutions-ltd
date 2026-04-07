@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Areas | Ralex Solutions Ltd</title>
+  <meta name="description" content="Practice focus areas at Ralex Solutions Ltd include labour relations, recruitment compliance, workplace disputes, and employment-law support in Zambia.">
+  <link rel="stylesheet" href="./styles.css?v=20260401-6">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="top-contact-bar">
+    <div class="container top-contact-inner">
+      <p>Consult with confidence: <a href="tel:+260979415130">+260 97 9415130</a> | <a href="mailto:info@ralexsolutionsltd.com">info@ralexsolutionsltd.com</a></p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="./index.html" class="logo" aria-label="Ralex Solutions Ltd home">Ralex Solutions Ltd</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a class="active" href="./practice-areas.html">Practice Areas</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="phone-link" href="tel:+260979415130">+260 97 9415130</a>
+        <a class="btn btn-primary" href="./contact.html#contact-form-panel">Book Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section page-hero">
+      <div class="container">
+        <p class="eyebrow">Practice Areas</p>
+        <h1>Focused Expertise Across Labour and Employment Matters</h1>
+        <p class="hero-support">Our practice areas are built to help organizations and job seekers navigate labour law, hiring, compliance, and workplace disputes.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container card-grid">
+        <article class="info-card"><h2>Recruitment and Hiring Compliance</h2><p>Lawful hiring frameworks, onboarding procedures, and documentation controls.</p></article>
+        <article class="info-card"><h2>Employment Contract Advisory</h2><p>Drafting and review of contracts, probation terms, and termination clauses.</p></article>
+        <article class="info-card"><h2>Workplace Disputes and Discipline</h2><p>Guidance for misconduct processes, hearings, and procedural fairness.</p></article>
+        <article class="info-card"><h2>Wrongful Termination and Separation</h2><p>Advisory on lawful exits, severance obligations, and dispute-risk reduction.</p></article>
+        <article class="info-card"><h2>Collective Bargaining and Union Relations</h2><p>Negotiation support, representation strategy, and labour-relations planning.</p></article>
+        <article class="info-card"><h2>Government and Labour Office Liaison</h2><p>Support with filings, investigations, and collaboration with regulatory bodies.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <h2>Need Help on a Labour Matter?</h2>
+        <p class="hero-support">If your issue is not listed, contact us for an initial review. We will advise you on the most compliant and practical next steps.</p>
+        <p class="section-cta-inline">
+          <a class="btn btn-primary" href="./contact.html#contact-form-panel">Discuss Your Case</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="./index.html" class="logo">Ralex Solutions Ltd</a>
+        <p>Labour relations and employment support in collaboration with government institutions.</p>
+      </div>
+      <nav class="footer-links" aria-label="Useful links">
+        <h3 class="footer-title">Useful Links</h3>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./practice-areas.html">Practice Areas</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <nav class="footer-links" aria-label="Information links">
+        <h3 class="footer-title">Information</h3>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Cookie Policy</a>
+      </nav>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <p class="footer-contact-item"><strong>Address:</strong> Lusaka, Zambia</p>
+        <p class="footer-contact-item"><strong>Mobile:</strong> <a href="tel:+260979415130">+260 97 9415130</a></p>
+        <p class="footer-contact-item"><strong>Email:</strong> <a href="mailto:info@ralexsolutionsltd.com">info@ralexsolutionsltd.com</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p class="disclaimer">Ralex Solutions Ltd Copyright &copy; 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".primary-nav");
+    if (menuToggle && nav) {
+      menuToggle.addEventListener("click", () => {
+        const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+        menuToggle.setAttribute("aria-expanded", String(!expanded));
+        nav.classList.toggle("nav-open");
+      });
+    }
+  </script>
+</body>
+</html>
+
+
+
